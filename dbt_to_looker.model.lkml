@@ -18,3 +18,7 @@ connection: "sample_bigquery_connection"
 #     sql_on: ${users.id} = ${orders.user_id} ;;
 #   }
 # }
+
+view: pylookml {
+  sql_table_name: `firstproject-352109.dacoaching.orders_descriptions` ;;
+  }
